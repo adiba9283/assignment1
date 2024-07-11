@@ -75,6 +75,11 @@
 }
 
 /* main */
+.secondary-part{
+    display: flex;
+    margin: auto;
+    padding: 10%;
+}
 .banner-title-2{
     font-weight: 800;
     font-size: 32px;
@@ -86,6 +91,34 @@
     display: flex;
 }
 
-.title-3{
-    
+.second_a{
+    margin: auto;
+    padding: 5%;
+}
+.second_b{
+    margin: auto;
+    padding: 5%;
+}
+.second-description{
+    text-align: left;
+
+}
+
+.learnMore-btn{
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2f3236;
+    border-radius: 20px;          
+    text-align: center;  
+}
+.second-title{
+
+}
+
+/* video */
+
+.video-container{
+    width: 1076px;
+    height: 550px; 
 }
