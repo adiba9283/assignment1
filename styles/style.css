@@ -80,8 +80,12 @@
     font-size: 32px;
 }
 
-.paragraph-2{
-    width: 852px;
-    height: 52px;
+.second-page-content{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
 
+.title-3{
+    
 }
