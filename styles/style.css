@@ -63,8 +63,12 @@
     color:rgb(255, 255, 255);
     padding: 21px 24px 21px 24px;
     margin: 32px 0px;
-    cursor: pointer;
-    
+    cursor: pointer;  
+    text-decoration-line: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .banner-profile-pic{
