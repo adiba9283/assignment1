@@ -75,12 +75,29 @@
 }
 
 /* main */
-.secondary-part{
+
+.secondary_bg{
+    flex-direction: column;
+    align-items: center;
     display: flex;
-    margin: auto;
-    padding: 10%;
-}
-.banner-title-2{
+    justify-content: center;
+    margin: 0px auto;
+    padding: 80px 97px 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+
+    border-radius: 16px;
+    width: 1140px;
+    height: 1395px;
+    left: 148px;
+    right: 152px;
+    top: 857px;
+    bottom: 2993px;
+    }
+
+
+.secondary-title{
+    justify-content: center;
+    text-align: center;
     font-weight: 800;
     font-size: 32px;
 }
@@ -106,23 +123,35 @@
 
 .learnMore-btn{
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #2f3236;
-    border-radius: 20px;          
+    font-size: 16px;          
     text-align: center;  
-}
-.second-title{
-
 }
 
 /* video */
 
 .video-container{
-    position: static;
-    align-self: stretch;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     width: 1076px;
     height: 550px; 
-    margin: 10px 0px;
+    margin: 0 au;
+  
+}
+iframe{
+    
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    padding: 32px;
+}
+
+
+.third-description{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color:rgb(13, 19, 33);
 }
