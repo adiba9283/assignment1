@@ -47,10 +47,9 @@
     text-align: center;
     line-height: 26px;
     color:rgb(13, 19, 33);
-    
-    /* opacity: 0.7; */
-   
+    opacity: 0.7;
 }
+
 
 /* Button style */
 .btn-primary{
@@ -76,25 +75,23 @@
 
 /* main */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .secondary_bg{
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0px auto;
     padding: 80px 97px 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
-
-    border-radius: 16px;
-    width: 1140px;
-    height: 1395px;
-    left: 148px;
-    right: 152px;
-    top: 857px;
-    bottom: 2993px;
+    border-radius: 16px;  
+    margin-top: 74px;  
     }
 
-
+/* shared */
 .secondary-title{
     justify-content: center;
     text-align: center;
@@ -134,9 +131,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 1076px;
-    height: 550px; 
-    margin: 0 auto;
+    margin-top: 88px;
   
 }
 iframe{
@@ -147,11 +142,57 @@ iframe{
     padding: 32px;
 }
 
-
+/* shared */
 .third-description{
     font-weight: 400;
     font-size: 16px;
     text-align: center;
     line-height: 26px;
     color:rgb(13, 19, 33);
+    opacity: 0.7;
+
 }
+
+
+/* Current Target section */
+
+#color1{
+    background: rgba(255, 76, 30, 0.05)
+}
+#color2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#color3{
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+.current-target{
+    margin-top: 149px;
+}
+#skill-des-gap{
+    margin-bottom: 48px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.skill-title{
+    font-weight: 800;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
