@@ -63,6 +63,7 @@
     color:rgb(255, 255, 255);
     padding: 21px 24px 21px 24px;
     margin: 32px 0px;
+    cursor: pointer;
     
 }
 
@@ -267,7 +268,7 @@ main input[type="text"]{
     height: 58px;
     border: none;
     border-radius: 8px;
-    background: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 /* footer style */
